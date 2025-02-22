@@ -6,7 +6,7 @@ import cors from 'cors';
 dotenv.config();
 
 const app = express();
-const PORT = process.env.PORT || 3001; // Use environment variable or fallback to 3001
+const PORT = process.env.PORT || 3002; // Use environment variable or fallback to 3002
 
 app.use(cors());
 app.use(express.json());
